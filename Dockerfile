@@ -1,5 +1,5 @@
 # Image chính thức của Microsoft SQL Server 2022
-FROM mcr.microsoft.com/mssql/server:2022-latest
+FROM mcr.microsoft.com/mssql/server:2019-latest
 
 # Chạy với quyền root (Render cần quyền này để không bị Operation not permitted)
 USER root
